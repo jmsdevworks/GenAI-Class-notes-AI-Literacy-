@@ -1,0 +1,167 @@
+# 📘 AI Literacy Study Guide
+
+This repository is a **learning companion** for understanding **Artificial Intelligence (AI)**, **Machine Learning (ML)**, **Deep Learning (DL)**, **Transformers**, and **GPTs**.  
+
+The guide is structured so you can:  
+✅ Learn **core terms and concepts** quickly  
+✅ Explore **lesson-by-lesson details** with explanations  
+✅ See **connections across lessons**  
+✅ Use **study drills** to reinforce knowledge  
+
+---
+
+## 📑 Table of Contents
+- [🔑 Quick Reference (Most Important Terms)](#-quick-reference-most-important-terms)
+- [📖 Lesson-by-Lesson Guide](#-lesson-by-lesson-guide)
+  - [Lesson 01 – Overview of AI, ML, and DL](#lesson-01--overview-of-ai-ml-and-dl)
+  - [Lesson 02 – Transformers, Advanced AI Models, and NLP](#lesson-02--transformers-advanced-ai-models-and-nlp)
+  - [Lesson 03 – Generative AI and AI Project Implementation](#lesson-03--generative-ai-and-ai-project-implementation)
+  - [Lesson 04 – Working with GPTs](#lesson-04--working-with-gpts)
+- [🔄 Cross-Lesson Connections](#-cross-lesson-connections)
+- [📚 Drill-Down Study Notes](#-drill-down-study-notes)
+- [📝 Study Exercises](#-study-exercises)
+- [📂 Repo Usage](#-repo-usage)
+
+---
+
+## 🔑 Quick Reference (Most Important Terms)
+
+Think of this section as your **flashcards**. If you only remember these, you’ll have the big picture.  
+
+- **Artificial Intelligence (AI)** – Teaching machines to mimic human thinking and decision-making.  
+- **Machine Learning (ML)** – Teaching machines to **learn from data** instead of just following rules.  
+- **Deep Learning (DL)** – A type of ML that uses **neural networks with many layers** (like a digital brain).  
+- **Generative AI (GenAI)** – AI that can **create new things** (text, images, music, etc.).  
+- **Transformers** – A model architecture that lets AI **understand context and relationships in data** (the engine behind GPT).  
+- **Large Language Models (LLMs)** – Very large transformer models trained on text.  
+- **Prompt Engineering** – Writing good instructions for AI to get better results.  
+- **Zero-Shot / Few-Shot Learning** – AI can do tasks with **no examples (zero)** or **just a few examples (few)**.  
+- **Fine-Tuning** – Adjusting a pre-trained AI model for a **specific task or industry**.  
+- **Chain-of-Thought Prompting** – Asking AI to **show its reasoning step by step**.  
+- **RLHF (Reinforcement Learning with Human Feedback)** – Teaching AI by combining machine learning with **human corrections**.  
+- **Responsible AI** – Making sure AI is **fair, safe, and ethical**.  
+
+---
+
+## 📖 Lesson-by-Lesson Guide
+
+### Lesson 01 – Overview of AI, ML, and DL
+AI is the umbrella, ML is the tool, and DL is the powerhouse.  
+
+**Key Ideas**
+- **AI** = Broad concept: anything where computers act “smart.”  
+- **ML** = Subset: systems that **learn patterns from data**.  
+- **DL** = Subset of ML: **neural networks with many layers** learn complex patterns.  
+
+**Types of Learning**
+- *Supervised*: You give the machine labeled examples (“this is a cat”).  
+- *Unsupervised*: Machine finds its own patterns (grouping similar data).  
+- *Reinforcement*: Machine learns by trial and error (like training a dog with rewards).  
+
+💡 *Connection*: Reinforcement learning shows up again in **RLHF (Lesson 04)**.  
+
+---
+
+### Lesson 02 – Transformers, Advanced AI Models, and NLP
+Transformers made LLMs possible.  
+
+**Key Ideas**
+- **Transformers**: Instead of processing words one at a time, they look at the **whole sentence at once** → faster and more accurate.  
+- **Attention Mechanism**: Helps the model figure out **which words matter most** in context.  
+- **Embeddings**: Turning words into numbers so the AI can work with them.  
+- **NLP (Natural Language Processing)**: How computers work with human language.  
+
+💡 *Connection*: Transformers power **GPTs (Lesson 04)**.  
+
+---
+
+### Lesson 03 – Generative AI and AI Project Implementation
+Now we move from “understanding” language to **creating** things.  
+
+**Key Ideas**
+- **Generative AI (GenAI)**: Makes new content — text (ChatGPT), images (DALL·E), music, and more.  
+- **GANs (Generative Adversarial Networks)**: Two AIs competing — one generates, one critiques.  
+- **Diffusion Models**: Step-by-step process that turns noise into images.  
+- **Human-in-the-Loop (HITL)**: Humans guide AI to keep it useful and safe.  
+- **Responsible AI**: Avoid bias, ensure fairness, explain decisions.  
+
+💡 *Connection*: Ethical ideas here continue into **Safety & Alignment (Lesson 04)**.  
+
+---
+
+### Lesson 04 – Working with GPTs
+Hands-on with the AI you’ve been hearing about.  
+
+**Key Ideas**
+- **GPT (Generative Pre-Trained Transformer)**: Trained on huge amounts of text to **predict the next word** in a sequence.  
+- **Prompt Engineering**: How you ask the question changes the answer.  
+- **Chain-of-Thought Prompting**: “Show your work” → better reasoning.  
+- **Zero-Shot / Few-Shot Learning**: GPT can do tasks without retraining.  
+- **Fine-Tuning**: Customizing GPT for your company/industry.  
+- **RLHF**: Aligns AI with human values and feedback.  
+- **Safety & Alignment**: Keeping AI helpful, harmless, and honest.  
+
+💡 *Connection*: Combines **Transformers (Lesson 02)** + **Reinforcement Learning (Lesson 01)** + **Responsible AI (Lesson 03)**.  
+
+---
+
+## 🔄 Cross-Lesson Connections
+
+| Lesson | Builds On | Leads To |
+|--------|-----------|----------|
+| Lesson 01 – AI, ML, DL | Foundations of learning | Used in Transformers & RLHF |
+| Lesson 02 – Transformers | Needs ML/DL background | Powers GPTs |
+| Lesson 03 – GenAI | Needs Transformers | Ethics applied to GPTs |
+| Lesson 04 – GPTs | Combines Lessons 1–3 | Practical applications |
+
+---
+
+## 📚 Drill-Down Study Notes
+
+### Lesson 01
+- Think of AI as the **big circle**, ML as a **smaller circle inside**, and DL as an **even smaller circle inside ML**.  
+- Real-world: Spam filters = ML; Siri = AI + NLP; Self-driving cars = AI + DL.  
+
+### Lesson 02
+- “Attention” is like highlighting the important words in a sentence.  
+- BERT vs. GPT: BERT reads both directions (good for understanding); GPT reads left-to-right (good for generating).  
+
+### Lesson 03
+- GANs: Think of a **forger vs. detective** game — one makes fakes, the other catches them.  
+- Diffusion: Like sculpting — start with “noise” and refine until an image emerges.  
+
+### Lesson 04
+- Prompt Engineering = talking to AI in a way it understands.  
+- Chain-of-Thought = making AI show the steps, not just the answer.  
+
+---
+
+## 📝 Study Exercises
+
+1. **Flashcard Review**  
+   - Define AI, ML, DL.  
+   - Explain difference between BERT and GPT.  
+   - Describe GANs in your own words.  
+
+2. **Connection Questions**  
+   - How does reinforcement learning in Lesson 01 connect to RLHF in Lesson 04?  
+   - Why are transformers better than older NLP models?  
+
+3. **Application Challenge**  
+   - Write a GPT prompt that asks for **step-by-step reasoning**.  
+   - Design a simple project: “Use GenAI for writing product descriptions” → What ethical risks should you check for?  
+
+---
+
+## 📂 Repo Usage
+
+Use this repo to:  
+- 📖 **Review definitions** (Quick Reference)  
+- 🧩 **Study each lesson** in detail  
+- 🔗 **See connections across lessons**  
+- 📝 **Practice exercises** to reinforce knowledge  
+
+---
+
+✍️ Maintained by **Jill Sharp** | 🚀 AI Learning Journey
+
